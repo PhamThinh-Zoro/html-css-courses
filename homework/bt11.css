@@ -1,0 +1,56 @@
+div{
+    margin: 0 0;
+}
+img{
+    margin: 0 0;
+}
+p{
+    font-family: Arial;
+    margin: 0 0;
+}
+.avt{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+.name{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.info{
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    margin-left: 8px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.mutual-avt{
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.mutual-info{
+    color: rgb(100,100,100);
+}
+.add{
+    background-color: rgb(24,119,242);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.profile{
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+.box{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 20px;
+}

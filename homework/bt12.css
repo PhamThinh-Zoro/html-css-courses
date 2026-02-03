@@ -1,0 +1,102 @@
+div{
+    font-family: Arial;
+}
+.contain{
+    border-style: solid;
+    border-color: rgb(200,200,200);
+    border-width: 1px;
+    width: 300px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px 12px;
+}
+.info{
+    background-color: rgb(34, 111, 227);
+    color: white;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+p{
+    font-family: Arial;
+    margin: 0 0;
+}
+.g{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.zoro{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+.inf{
+    width: 200px;
+}
+.in1{
+    font-weight: bold;
+    margin-bottom: 3px;
+}
+.in2{
+    color: rgb(100,100,100);
+    margin-bottom: 5px;
+}
+.in3{
+    color: rgb(100,100,100);
+    font-size: 14px;
+}
+.follow{
+    background-color: rgb(29,155,240);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.f{
+    background-color:  rgb(120, 82, 178);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.f1{
+    font-weight: bold;
+    color: white;
+}
+.f2{
+    border: none;
+    width: 500px;
+    height: 30px;
+    padding-left: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 15px;
+}
+.download{
+    background-color:  rgb(120, 82, 178);
+    color: white;
+    font-size: 16px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-radius: 2px;
+    padding: 8px 15px;
+}

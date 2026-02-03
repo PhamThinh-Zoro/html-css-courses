@@ -1,0 +1,30 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "PostgreSQL_BanHang",
+            "group": "PostgreSQL",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "9273",
+            "connectionTimeout": 30
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "group": "PostgreSQL",
+            "name": "PostgreSQL_IT004",
+            "database": "banhang",
+            "username": "postgres",
+            "password": "9273",
+            "connectionTimeout": 30
+        }
+    ]
+}

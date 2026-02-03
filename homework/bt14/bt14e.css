@@ -1,0 +1,45 @@
+body{
+    font-family: Arial;
+    height: 3000px;
+}
+.giyuu{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top:0;
+    right: 0;
+    left: 0;
+    padding: 10px 50px;
+}
+.name{
+    font-weight: bold;
+}
+.add{
+    background-color: rgb(24,119,242);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin-right: 3px;
+}
+.message{
+    background-color: rgb(230,230,230);
+    border: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+}

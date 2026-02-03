@@ -1,0 +1,56 @@
+div{
+    margin: 0 0;
+}
+img{
+    margin: 0 0;
+}
+p{
+    font-family: Arial;
+    margin: 0 0;
+}
+.avt{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 12px;
+}
+.name{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+}
+.info{
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+.mutual-avt{
+    width: 28px;
+    height: 28px;
+    object-fit: cover;
+    border-radius: 50px;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+.mutual-info{
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(100,100,100);
+}
+.add{
+    background-color: rgb(24,119,242);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+.profile{
+    width: 200px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+}
